@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;800&display=swap');
+
+.main{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+p{
+    margin:0px;
+}
+.text{
+    padding:10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url("./images/pattern-quotes.svg"), url("./images/pattern-curve.svg");
+    background-repeat: no-repeat,no-repeat;
+    background-position: top center, bottom;
+    background-size: 70px,contain;
+    text-align: center;
+}
+.profile{
+    margin: auto;
+    height:170px;
+    width:170px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    
+}
+.name{
+    margin-top: 20px;
+}
+.image{
+   background-image: url("./images/pattern-bg.svg"); 
+   height:250px;
+   width:250px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.about{
+    color:hsl(240, 38%, 20%);
+}
+.role{
+    color: hsl(240, 18%, 77%);
+   
+}
+.buttons{
+    display: flex;
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    gap:10px;
+    box-shadow: 0px 0px 10px black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    position: relative;
+    bottom: 40px;
+
+}
+.buttons img{
+    
+    height: 50%;
+    object-fit: contain;
+   
+}
